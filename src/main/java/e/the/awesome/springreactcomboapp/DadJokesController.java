@@ -2,10 +2,8 @@ package e.the.awesome.springreactcomboapp;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.annotation.WebServlet;
 
 @RestController
-@WebServlet
 public class DadJokesController {
     @GetMapping("/api/dadjokes")
     public String dadJokes() {

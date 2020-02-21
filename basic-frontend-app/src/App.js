@@ -6,9 +6,9 @@ class App extends Component {
 
     state = {};
 
-    componentDidMount() {
-        this.dadJokes()
-    }
+        componentDidMount() {
+            setInterval(this.dadJokes, 250);
+        }
 
     dadJokes = () => {
         fetch('/api/dadjokes')

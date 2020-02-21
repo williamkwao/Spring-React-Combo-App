@@ -7,7 +7,7 @@ class App extends Component {
     state = {};
 
         componentDidMount() {
-            setInterval(this.dadJokes, 25);
+            setInterval(this.dadJokes, 250);
         }
 
     dadJokes = () => {
